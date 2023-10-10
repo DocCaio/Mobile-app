@@ -1,0 +1,36 @@
+@import url('./variables.css');
+
+
+h1 {
+    font-family: var(--font);
+    color: var(--primary-color);
+}
+
+a {
+    text-decoration: none;
+    border-radius: 1em;
+    background: #000;
+    color:white;
+    padding: 1em;
+    text-align: center;
+    width: 284px;
+    height: 59px;
+    
+    
+}
+
+span {
+    color: var(--primary-color);
+}
+
+strong {
+    color: #000;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}

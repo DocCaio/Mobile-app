@@ -1,4 +1,4 @@
-@import url('/home.css');
+@import url('./home.css');
 
 body {
     background-color: var(--bg)
@@ -12,5 +12,6 @@ body {
 
 :root {
     --bg:#8c5cb3;
-    -f-f: 'Inter', sans-serif;
+    --font: 'Inter', sans-serif;
+    --primary-color:#fff;
 }
