@@ -1,1 +1,33 @@
 @import url('./variables.css');
+
+header {
+    display: flex;
+    flex-direction: column;    
+    text-align: center;
+    align-items: flex-start;
+}
+
+hr {
+    color: var(--second-color);
+}
+
+.btn-log {
+    text-decoration: none;
+    border-radius: 1em;
+    background: var(--second-color);
+    color:var(--primary-color);
+    padding: 1em;
+    text-align: center;
+    width: 284px;
+    height: 59px;
+    display: inline-flex;    
+    justify-content: center;
+    flex-direction: row-reverse;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 734;
+    line-height: normal;
+   
+}

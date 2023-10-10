@@ -25,7 +25,7 @@ p {
    line-height: normal;
 }
 
-a {
+.btn-home {
     text-decoration: none;
     border-radius: 1em;
     background: var(--second-color);
