@@ -1,20 +1,45 @@
 @import url('./variables.css');
 
+header {
+    margin: 1em 0 0 1em;
+}
+
 
 h1 {
     font-family: var(--font);
     color: var(--primary-color);
+    color: #FFF;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 734;
+    line-height: normal;
+
+}
+
+p {
+   color: var(--second-color);
+   font-family: var(--font);
+   font-size: 20px;
+   font-style: normal;
+   font-weight: 734;
+   line-height: normal;
 }
 
 a {
     text-decoration: none;
     border-radius: 1em;
-    background: #000;
-    color:white;
+    background: var(--second-color);
+    color:var(--primary-color);
     padding: 1em;
     text-align: center;
     width: 284px;
     height: 59px;
+
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 734;
+    line-height: normal;
     
     
 }
