@@ -1,4 +1,5 @@
 @import url('./home.css');
+@import url('./log-in.css');
 
 body {
     background-color: var(--bg)
