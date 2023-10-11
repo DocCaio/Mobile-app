@@ -1,6 +1,6 @@
 @import url('./home.css');
 @import url('./log-in.css');
-
+@import url('./sign-up.css');
 body {
     background-color: var(--bg)
 }
