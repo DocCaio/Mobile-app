@@ -1,5 +1,6 @@
 @import url('./variables.css');
 
+
 header {
     display: flex;
     flex-direction: column;    
@@ -23,6 +24,7 @@ hr {
     display: inline-flex;    
     justify-content: center;
     flex-direction: row-reverse;
+    border: 0;
 
     font-family: Inter;
     font-size: 20px;
@@ -30,4 +32,14 @@ hr {
     font-weight: 734;
     line-height: normal;
    
+}
+
+.btn-log img {
+    display: flex;
+    margin-right: 1em;
+}
+
+.log-girl {
+    width: 100vw;
+    height: 100vh;
 }
