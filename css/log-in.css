@@ -39,6 +39,23 @@ hr {
     margin-right: 1em;
 }
 
+.line {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.65rem;
+
+    width: max-content;
+    margin: 0 auto;
+}
+
+.line::before,
+.line::after {
+    content: "";
+    border: 1px solid black;
+    width: 50px;
+}
+
 label {
    color: var(--second-color);
    font-family: var(--font);
