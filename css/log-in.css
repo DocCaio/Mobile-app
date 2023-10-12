@@ -8,10 +8,6 @@ header {
     align-items: flex-start;
 }
 
-hr {
-    color: var(--second-color);
-}
-
 .btn-log {
     text-decoration: none;
     border-radius: 1em;
@@ -56,6 +52,7 @@ hr {
     width: 50px;
 }
 
+
 .form-group  label {
    color: var(--second-color);
    font-family: var(--font);
@@ -63,10 +60,12 @@ hr {
    font-style: normal;
    font-weight: 734;
    line-height: normal;
+
+   
 }
 
 .form-control {
-
+display: block;
 border-radius: 50px;
 border: 1px solid #D9D9D9;
 background: #FFF;
@@ -77,6 +76,29 @@ height: 49px;
 flex-shrink: 0;
 
 }
+
+.form-forgot div {
+   display: flex;
+   justify-content: space-between;
+}
+
+.lost {
+    color: #000;
+font-family: Inter;
+font-size: 15px;
+font-style: normal;
+font-weight: 300;
+line-height: normal;
+}
+
+
+
+footer img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
 
 .log-girl {
     width: 100vw;

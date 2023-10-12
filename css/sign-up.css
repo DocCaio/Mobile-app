@@ -10,8 +10,8 @@ form {
     display: flex;
     justify-content: center;
     align-items: center;
-   flex-direction: column;
-   gap: 1.5em;
+    flex-direction: column;
+    gap: 1.5em;
 }
 
 .form-control-2 {    
@@ -49,4 +49,8 @@ form {
     font-style: normal;
     font-weight: 734;
     line-height: normal;
+}
+
+.footer-div span {
+    color: var(--second-color);
 }
