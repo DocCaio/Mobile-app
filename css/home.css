@@ -5,6 +5,16 @@ header {
     margin: 1em 0 0 1em;
 }
 
+.clound {
+   
+        border-top-right-radius: 50px;
+        border-bottom-right-radius: 50px;
+        border: 1px solid #000;
+        width: 100px;
+        height: 100px;
+        background-color: #FFF;
+    
+}
 
 h1 {
     font-family: var(--font);
@@ -26,6 +36,8 @@ p {
    font-weight: 734;
    line-height: normal;
 }
+
+
 
 .btn-home {
     text-decoration: none;
