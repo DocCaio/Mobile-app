@@ -4,7 +4,14 @@ header , main {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 2em;
 }
+
+.container{
+    margin-top: 3rem;
+}
+
+
 
 form {
     display: flex;
@@ -12,6 +19,7 @@ form {
     align-items: center;
     flex-direction: column;
     gap: 1.5em;
+    margin-top: 2rem;
 }
 
 .form-control-2 {    
