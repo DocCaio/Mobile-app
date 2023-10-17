@@ -22,6 +22,7 @@ form {
     margin-top: 2rem;
 }
 
+
 .form-control-2 {  
   display: block;  
   border-radius: 50px;
@@ -32,6 +33,12 @@ form {
   width: 280px;
   height: 35px;
   flex-shrink: 0;
+}
+
+.footer {
+    background-image: url('/img/sign-girl.png') no-repeat;
+    background-size: cover;
+    background-size: s;
 }
 
 .footer-div {
