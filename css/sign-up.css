@@ -35,10 +35,15 @@ form {
   flex-shrink: 0;
 }
 
-.footer {
-    background-image: url('/img/sign-girl.png') no-repeat;
-    background-size: cover;
-    background-size: s;
+.coantiner-3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.coantiner-3 img {
+    margin-left: -1.1em;
 }
 
 .footer-div {
